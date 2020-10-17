@@ -1,0 +1,10 @@
+.feedbacks{
+    margin-bottom: 150px;
+    padding-top: 100px;
+}
+.feedbacks h1{
+    margin-bottom: 50px;
+}
+.feedbacks h1 span{
+    color: #94C079;
+}

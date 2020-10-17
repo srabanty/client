@@ -1,0 +1,22 @@
+.service-card img{
+    width: 60px;
+}
+.service-card{
+    float: left;
+    margin-bottom: 20px;
+}
+.service-card h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+/* .service-dark{
+    box-shadow:0 0 20px lightgrey;
+} */
+.service-none{
+    box-shadow: none;
+}
+.service-card:hover{
+  background-color: lightgoldenrodyellow;
+  box-shadow:0 0 30px lightgrey;
+  transition:.3s;  
+}

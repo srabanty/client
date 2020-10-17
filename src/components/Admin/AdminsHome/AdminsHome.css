@@ -1,0 +1,31 @@
+.logo img{
+    width: 150px;
+}
+.background-sky{
+    background-color: #F4F7FC;
+    height: 100vh;
+}
+.form input, .form textarea{
+    width: 70%;
+    border: none;
+    border: 1px solid lightblue;
+}
+h5{
+    text-decoration: none;
+}
+.all-service-list{
+    background-color: white;
+    border-radius: 10px;
+}
+.all-service-list .list-top{
+    background-color: #F5F6FA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+select{
+    border: none;
+}
+select option{
+    border: none;
+}

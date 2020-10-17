@@ -1,0 +1,17 @@
+.all-projects{
+    background-color: #111430;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.all-projects h1{
+    padding-bottom: 100px;
+}
+.all-projects h1 span{
+    color: #669551;
+}
+button.slick-arrow.slick-prev{
+    display: none!important;
+}
+button.slick-arrow.slick-next{
+    display: none!important;
+}

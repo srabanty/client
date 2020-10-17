@@ -1,0 +1,16 @@
+.card-top img{
+    width: 50px;
+    height: 50px;
+}
+.card-items{
+    background-color: white;
+    padding: 20px;
+}
+.card-items .card-top h4{
+    padding: 5px;
+    border: 1px solid red;
+}
+.background-sky{
+    background-color: #F4F7FC;
+    height: 100vh;
+}

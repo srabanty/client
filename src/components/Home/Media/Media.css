@@ -1,0 +1,9 @@
+.media img{
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+}
+.media{
+    margin-bottom: 120px;
+}
