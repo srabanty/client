@@ -30,7 +30,7 @@ import { useEffect } from 'react';
 const ClientsFeedback = () => {
     const [feedback, setFeedback] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/feedbacks')
+        fetch('https://quiet-savannah-61293.herokuapp.com/feedbacks')
         .then(res=>res.json())
         .then(data=>setFeedback(data))
     },[])

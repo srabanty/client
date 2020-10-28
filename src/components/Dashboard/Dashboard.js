@@ -11,7 +11,7 @@ const Dashboard = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [user,setUser] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/admins')
+        fetch('https://quiet-savannah-61293.herokuapp.com/admins')
         .then(res=>res.json())
         .then(data=>{
             console.log(data)

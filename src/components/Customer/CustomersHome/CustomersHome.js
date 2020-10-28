@@ -29,7 +29,7 @@ const CustomersHome = () => {
         formData.append('details', info.details);
         formData.append('price', info.price);
 
-        fetch('http://localhost:5000/addOrders',{
+        fetch('https://quiet-savannah-61293.herokuapp.com/addOrders',{
             method:'POST',
             body: formData
         })

@@ -11,7 +11,7 @@ const SingleService = ({service}) => {
                 {
                     service.image ? <img style={{width:'60px'}} src={`data:image/png;base64,${service.image.img}`}/>
                     :
-                    <img src={`http://localhost:5000/${service.img}`} alt=""/>
+                    <img src={`https://quiet-savannah-61293.herokuapp.com/${service.img}`} alt=""/>
                 }
                 <h4><strong>{service.title}</strong></h4>
                 <p className="text-secondary">{service.description}</p>

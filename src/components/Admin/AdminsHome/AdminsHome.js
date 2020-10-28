@@ -13,7 +13,7 @@ const AdminsHome = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [orders,setOrders] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/allOrders')
+        fetch('https://quiet-savannah-61293.herokuapp.comh-61293.herokuapp.com/allOrders')
         .then(res=>res.json())
         .then(data=>{
             console.log(data)
